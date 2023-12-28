@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="external.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+   
+    <div class="box">
+     
+        <h6 class = "required">Name</h6>
+        <input type="text" id = "text" name = "first" placeholder="firstname" required >
+        <input type = "text" id = "text" name = "last" placeholder="lastname" required><br><br>
+        <h6 class = "required">Email</h6>
+        <input type = "email" id = email name = "email" placeholder="email" required><br><br>
+
+        <h6 class = "required">Your Experiences</h6>
+        <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+            <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+            <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+            <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+            <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+        </div> 
+        
+        <label>Overall how would you rate you experience with us</label><br><br>
+        <h6 class = "required">How are you satisfied with</h6>
+
+    <div class = "container">
+        
+        <div class = "row">
+            <div class = "col-lg-2">
+                <label ></label><br>
+                <label  class = "label1">Purchase</label><br>
+                <label class="label1">Service</label><br>
+                <label class="label2" >Company Overall</label>
+            </div>
+                    
+                
+            
+            <div class = "col-lg-2">
+                <label >Very Unsatisfied</label><br>
+                <input type = "radio" name = "value1"  class = "bot1"><br>
+                <input type = "radio" name = "value1"  class = "bot1"><br>
+                <input type = "radio" name = "value1"  class = "bot1"><br> 
+            </div>
+            
+            <div class = "col-lg-2">
+                <label >UnSatisfied</label><br>
+                <input type = "radio" name = "value1"  class = "bot1"><br>
+                <input type = "radio" name = "value1"  class = "bot1"><br>
+                <input type = "radio" name = "value1"  class = "bot1"><br>
+            </div>
+
+            <div class = "col-lg-2">
+                <label >Neutral</label><br>
+                <input type = "radio" name = "value1"  class = "bot1"><br>
+                <input type = "radio" name = "value1"  class = "bot1"><br>
+                <input type = "radio" name = "value1"  class = "bot1"><br>
+            </div>
+
+            <div class = "col-lg-2">
+                <label >Satisfied</label><br>
+                <input type = "radio" name = "value1"  class = "bot1"><br> 
+                <input type = "radio" name = "value1"  class = "bot1"><br>
+                <input type = "radio" name = "value1"  class = "bot1"><br>
+            </div>
+
+            <div class = "col-lg-2">
+                <label >Very Satisfied</label><br>
+                      <input type = "radio" name = "value1" class = "bot1"><br> 
+                      <input type = "radio" name = "value1"  class = "bot1"><br>
+                      <input type = "radio" name = "value1"  class = "bot1"><br>
+            </div>
+
+            </div>
+        </div>
+<br>
+<h6 class="required">How likely are you</h6>
+
+    <div class = container>
+          <div class = row>
+            
+                <div class = "col-lg-2">
+                    <label ></label><br>
+                    <label class = "label2">Buy from us again</label><br>
+                    <label class=" label3">Recommend our product to others</label><br>
+                    <label class = "label3">Recommend our company to others</label>
+                </div>
+
+                <div class = "col-lg-2">
+                    <label >Very Unlikely</label><br>
+                    <input type = "radio" id = "radio1" name = "radio1" class="bot"><br> 
+                    <input type = "radio"  id = "radio1" name = "radio1" class="bot"><br>
+                    <input type = "radio"  id = "radio1" name = "radio1"  class="bot"><br>
+                </div>
+
+                <div class = "col-lg-2">
+                    <label > Unlikely</label><br>
+                    <input type = "radio" id = "radio1" name = "radio1" class="bot"><br> 
+                    <input type = "radio"  id = "radio1" name = "radio1" class="bot"><br>
+                    <input type = "radio"  id = "radio1" name = "radio1"  class="bot"><br>
+                </div>
+
+                <div class = "col-lg-2">
+                    <label > Neutral</label><br>
+                    <input type = "radio" id = "radio1" name = "radio1" class="bot"><br> 
+                    <input type = "radio"  id = "radio1" name = "radio1" class="bot"><br>
+                    <input type = "radio"  id = "radio1" name = "radio1"  class="bot"><br>
+                </div>
+
+                <div class = "col-lg-2">
+                    <label > Likely</label><br>
+                    <input type = "radio" id = "radio1" name = "radio1" class="bot"><br> 
+                    <input type = "radio"  id = "radio1" name = "radio1" class="bot"><br>
+                    <input type = "radio"  id = "radio1" name = "radio1"  class="bot"><br>
+                </div>
+
+                <div class = "col-lg-2">
+                    <label > Very Likely</label><br>
+                          <input type = "radio" id = "radio1" name = "radio1" class="bot"><br> 
+                          <input type = "radio"  id = "radio1" name = "radio1" class="bot"><br>
+                          <input type = "radio"  id = "radio1" name = "radio1"  class="bot"><br>
+                          
+                </div>
+
+
+                        
+            </div> 
+            
+        </div>
+                
+              <br>
+            <h6> Additional comments or suggestions</h6>    
+            <div >
+                <textarea  rows = "3" cols = "100" ></textarea>
+            </div>
+            <br>
+            <input type ="button" value="submit">
+                
+    
+                    
+    </div>
+
+        
+      
+
+        
+
+
+    
+
+           
+            
+
+</body>
+</html>
